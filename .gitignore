@@ -1,0 +1,140 @@
+# ===========================
+# Python
+# ===========================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+
+# Virtual Environment
+venv/
+.env
+.env.local
+
+# ===========================
+# FastAPI and Uvicorn Logs
+# ===========================
+logs/
+*.log
+logs/*.log
+uvicorn.log
+gunicorn.log
+
+# ===========================
+# IDE and Editor Settings
+# ===========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ===========================
+# Testing and Coverage
+# ===========================
+.coverage
+pytest_cache/
+htmlcov/
+nose2-coverage.xml
+coverage.xml
+*.cover
+.tox/
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+.docker/
+.dockerignore
+Dockerfile~
+*.dockerfile
+
+# ===========================
+# Cache Files
+# ===========================
+*.cache
+pip-log.txt
+pip-delete-this-directory.txt
+__pycache__/
+.cache/
+*.egg-info/
+*.eggs/
+
+# ===========================
+# Build and Distribution
+# ===========================
+build/
+dist/
+*.egg
+MANIFEST
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints
+
+# ===========================
+# macOS System Files
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===========================
+# Linux System Files
+# ===========================
+*.swp
+*~
+
+# ===========================
+# Node.js (if front end or scripts)
+# ===========================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ===========================
+# Poetry (if used)
+# ===========================
+poetry.lock
+
+# ===========================
+# Pycharm (if used)
+# ===========================
+.idea/
+
+# ===========================
+# Heroku
+# ===========================
+.heroku/
+Procfile
+
+# ===========================
+# Environment Files
+# ===========================
+.env
+.env.local
+.env.*.local
+.envrc
+
+# ===========================
+# SQLite and DB Migrations
+# ===========================
+*.sqlite3
+db.sqlite3
+alembic/
+alembic.ini
+
+# ===========================
+# Misc
+# ===========================
+*.bak
+*.orig
+*.old
+*.tmp
